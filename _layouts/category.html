@@ -1,0 +1,15 @@
+---
+layout: pages
+---
+<section class="main-container" style="background-color:#131313">
+  <div class="container">
+    <div class="row">
+      {% include page-nav.html %}
+      <div class="main col-md-9">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <div class="separator-2"></div>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

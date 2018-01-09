@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="breadcrumb-container" style="background-color:#1b1b1b">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li><i class="fa fa-home pr-10"></i><a href="{{ site.url }}">Home</a></li>
+      <li><a href="{{ site.url }}/{{ page.type-en }}/">{{ page.type }}</a></li>
+      <li class="active">{{ page.title }}</li>
+    </ol>
+  </div>
+</div>
+<section class="main-container" style="background-color:#131313">
+  <div class="container">
+    <div class="row">
+      {% include page-nav.html %}
+      <div class="main col-md-9">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <div class="separator-2"></div>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

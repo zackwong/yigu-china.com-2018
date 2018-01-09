@@ -1,0 +1,17 @@
+---
+layout: category
+permalink: /anti-slip-sticker/
+category: products
+title: Anti Slip Sticker
+---
+<div class="row grid-space-10">{% for post in site.categories["anti-slip-sticker"] %}
+  <div class="col-xs-6 col-sm-6 col-md-4">
+    <div class="image-box style-2 mb-20 shadow bordered light-gray-bg text-center">
+      <div class="overlay-container"><img src="/images/{{ post.type-en }}/{{ post.image }}.jpg" alt="{{ post.title }}"></div>
+      <div class="body">
+        <h4>{{ post.title }}</h4>
+        <a href="{{ site.url }}{{ post.url }}" target="_blank" class="btn btn-default btn-sm btn-hvr hvr-shutter-out-horizontal margin-clear">VIEW DETAILS</a>
+      </div>
+    </div>
+  </div>{% endfor %}
+</div>

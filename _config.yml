@@ -1,0 +1,33 @@
+url: http://www.yigusafety.com
+
+title: YIGU ANTI-SLIP
+
+keywords: YIGU ANTI-SLIP
+
+description: YIGU ANTI-SLIP
+
+permalink: /products/:title.html
+
+relative_permalinks: false
+
+email: eric@yigu-china.com
+
+tel: 0757-85929378
+
+fax: 0757-85909378
+
+address: 广东省佛山市南海区大沥镇盐步横江沙海村大塘工业区5-6号
+
+exclude:
+  - README.md
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/js
+    - _assets/css
+  compress:
+    css: true
+    js: true
+  gzip: []

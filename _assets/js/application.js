@@ -1,0 +1,12 @@
+//= require jquery.min.js
+//= require bootstrap.min.js
+//= require modernizr.js
+//= require jquery.themepunch.tools.min.js
+//= require jquery.themepunch.revolution.min.js
+//= require jquery.magnific-popup.min.js
+//= require jquery.parallax-1.1.3.js
+//= require jquery.waypoints.min.js
+//= require owl.carousel.js
+//= require jquery.browser.js
+//= require SmoothScroll.js
+//= require template.js

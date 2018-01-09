@@ -1,0 +1,49 @@
+---
+layout: category
+permalink: /anti-slip-tape/
+category: products
+type-en: anti-slip-tape
+title: Anti Slip Tape
+---
+<div class="col-md-12">
+  <h3 class="page-title" style="background-color:#ff0000;line-height:30px">① PVC ANTI SLIP TAPE</h3>
+  <div class="row">{% for post in site.categories["anti-slip-tape-pvc"] %}
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <p align="center"><a href="{{ site.url }}{{ post.url }}" target="_blank"><img src="/images/{{ post.type-en }}/{{ post.image }}.jpg" alt="{{ post.title }}"></a></p>
+      <p align="center">{{ post.title }}</p>
+      <p align="center">{{ post.products-type }}</p>
+      <p align="center">Feature: {{ post.feature }}</p>
+      <p align="center"><a href="{{ site.url }}{{ post.url }}" target="_blank" class="btn btn-animated btn-warning">VIEW DETAILS <i class="fa fa-chevron-right"></i></a></p>
+    </div>{% endfor %}
+  </div>
+  <h3 class="page-title" style="background-color:#ff0000;line-height:30px">② PET ANTI SLIP TAPE</h3>
+  <div class="row">{% for post in site.categories["anti-slip-tape-pet"] %}
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <p align="center"><a href="{{ site.url }}{{ post.url }}" target="_blank"><img src="/images/{{ post.type-en }}/{{ post.image }}.jpg" alt="{{ post.title }}"></a></p>
+      <p align="center">{{ post.title }}</p>
+      <p align="center">{{ post.products-type }}</p>
+      <p align="center">Feature: {{ post.feature }}</p>
+      <p align="center"><a href="{{ site.url }}{{ post.url }}" target="_blank" class="btn btn-animated btn-warning">VIEW DETAILS <i class="fa fa-chevron-right"></i></a></p>
+    </div>{% endfor %}
+  </div>
+  <h3 class="page-title" style="background-color:#ff0000;line-height:30px">③ ALUMINUM ANTI SLIP TAPE</h3>
+  <div class="row">{% for post in site.categories["aluminum-anti-slip-tape"] %}
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <p align="center"><a href="{{ site.url }}{{ post.url }}" target="_blank"><img src="/images/{{ post.type-en }}/{{ post.image }}.jpg" alt="{{ post.title }}"></a></p>
+      <p align="center">{{ post.title }}</p>
+      <p align="center">{{ post.products-type }}</p>
+      <p align="center">Feature: {{ post.feature }}</p>
+      <p align="center"><a href="{{ site.url }}{{ post.url }}" target="_blank" class="btn btn-animated btn-warning">VIEW DETAILS <i class="fa fa-chevron-right"></i></a></p>
+    </div>{% endfor %}
+  </div>
+  <h3 class="page-title" style="background-color:#ff0000;line-height:30px">④ VINYL ANTI SLIP TAPE</h3>
+  <div class="row">{% for post in site.categories["vinyl-anti-slip-tape"] %}
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <p align="center"><a href="{{ site.url }}{{ post.url }}" target="_blank"><img src="/images/{{ post.type-en }}/{{ post.image }}.jpg" alt="{{ post.title }}"></a></p>
+      <p align="center">{{ post.title }}</p>
+      <p align="center">{{ post.products-type }}</p>
+      <p align="center">Feature: {{ post.feature }}</p>
+      <p align="center"><a href="{{ site.url }}{{ post.url }}" target="_blank" class="btn btn-animated btn-warning">VIEW DETAILS <i class="fa fa-chevron-right"></i></a></p>
+    </div>{% endfor %}
+  </div>
+</div>
