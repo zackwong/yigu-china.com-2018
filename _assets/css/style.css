@@ -28,14 +28,14 @@ h4,
 h5,
 h6,
 .navbar .navbar-nav {
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
   font-weight:700;
 }
 body {
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
 }
 .logo-font {
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
 }
 /*Typography
 ---------------------------------- */
@@ -231,14 +231,14 @@ blockquote:after {
   height: 25px;
   line-height: 36px;
   font-size: 36px;
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
   position: absolute;
   top: 12px;
   left: 0px;
   color: #cdcdcd;
 }
 .blockquote:before {
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
   content: "“";
   font-size: 40px;
 }
@@ -6251,14 +6251,14 @@ h6.media-heading {
 }
 .xlarge_white {
   font-size: 68px;
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
   font-weight: 400;
   color: #ffffff;
   line-height: 1.2;
 }
 .large_white {
   font-size: 42px;
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
   color: #ffffff;
   line-height: 1.2;
 }
@@ -6274,19 +6274,19 @@ h6.media-heading {
 }
 .xlarge_dark {
   font-size: 68px;
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
   font-weight: 400;
   color: #333;
   line-height: 1.2;
 }
 .large_dark {
   font-size: 42px;
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
   color: #333;
   line-height: 1.2;
 }
 .tp-caption.medium_dark {
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
   font-size: 24px;
   color: #333;
   font-weight: 400;
@@ -6497,7 +6497,7 @@ h6.media-heading {
   color: #ffffff;
   text-transform: none;
   font-weight: 300;
-  font-family:"Arial";
+  font-family:"Microsoft YaHei";
 }
 /* Small devices (tablets, phones 768px and Up) */
 @media (min-width: 768px) {
