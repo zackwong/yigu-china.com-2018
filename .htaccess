@@ -1,0 +1,10 @@
+# turn on redirection
+RewriteEngine on
+
+# non-www redirects to www
+RewriteCond %{http_host} ^yigu-china.com [nc]
+RewriteRule ^(.*)$ http://www.yigu-china.com/$1 [L,R=301]
+
+# redirect index.html to its folder
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://www.yigu-china.com/$1 [R=301,L]
