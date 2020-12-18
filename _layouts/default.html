@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" href="{{ site.url }}/images/assets/yigu-icon.jpg">
     <meta name="apple-mobile-web-app-title" content="毅固防滑">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% stylesheet application %}
+    <link type="text/css" rel="stylesheet" href="{{ site.url }}/assets/yigu.css">
   </head>
   <body class="no-trans front-page transparent-header">
     <div class="scrollToTop circle"><i class="fa fa-chevron-up"></i></div>
@@ -48,7 +48,7 @@
                         <ul class="nav navbar-nav">
                           <li class="{% if page.category == 'home' %}active{% endif %}"><a href="{{ site.url }}">首页</a></li>
                           <li class="{% if page.category == 'about' %}active{% endif %}"><a href="{{ site.url }}/about/">公司简介</a></li>
-                          <li class="{% if page.category == 'products' %}dropdown active{% else %}dropdown{% endif %}">
+                          <li class="dropdown {% if page.category == 'products' %}active{% endif %}">
                             <a class="dropdown-toggle" data-toggle="dropdown">产品展示</a>
                             <ul class="dropdown-menu">
                               <li><a href="{{ site.url }}/anti-slip-tape/">防滑胶带</a></li>
@@ -85,6 +85,6 @@
         </div>
       </footer>
     </div>
-    {% javascript application %}
+    <script type="text/javascript" src="{{ site.url }}/assets/yigu.js"></script>
   </body>
 </html>
