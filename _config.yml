@@ -6,10 +6,6 @@ keywords: 毅固防滑
 
 description: 毅固防滑
 
-permalink: /products/:title.html
-
-relative_permalinks: false
-
 email: eric@yigu-china.com
 
 tel: 0757-85929378
@@ -22,14 +18,3 @@ address: 广东省佛山市南海区大沥镇盐步横江沙海村大塘工业�
 
 exclude:
   - README.md
-
-assets:
-  dirname: assets
-  baseurl: /assets/
-  sources:
-    - _assets/js
-    - _assets/css
-  compress:
-    css: true
-    js: true
-  gzip: []
